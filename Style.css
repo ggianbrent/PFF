@@ -1,0 +1,409 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap'); 
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+@font-face {
+	font-family: inter-bold;
+	src: url(Inter-VariableFont_opsz,wght.ttf);
+	font-weight:bold;
+}
+
+@font-face {
+	font-family: inter;
+	src: url(Inter-VariableFont_opsz,wght.ttf);
+}
+
+.banner{
+    width: 100%;
+    height: 15vh;
+    background-color: #ffff;
+    margin-top: -20px;
+    
+}
+
+.navbar {
+	background-color: #FCFCFC;
+	display: flex;
+	padding: 16px 50px;
+}
+
+header {
+    top: 0;
+    z-index: 1000;
+    position: sticky;
+}
+
+.companyinfo {
+	padding:10px 20px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.name {
+	font-family:inter-bold;
+	font-size:24px;
+}			
+.info {
+	font-family:inter-bold;
+	font-size:13px;
+}
+
+.interactive {
+	margin-left: auto; 
+	margin-right: 0;
+	padding:0px 30px;
+	flex: 0.9 0.9 auto;
+	display:flex;
+	text-align: right;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+#Titlee{
+    margin-left: 1%;
+    margin-right: 10%;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#subtitle{
+    font-size: small;
+    font-weight: 700;
+}
+
+.navbar ul{
+	margin-left: auto; 
+	margin-right: 0;
+	padding-right:25px;
+	display: flex;
+	float: right;
+}
+
+.search-container{
+    border: none;
+	padding:10px 0px;
+	padding-right:25px;
+}
+
+.search-input {
+    height: 15px;
+    padding: 15px;
+    padding-top: 15px;
+    text-align: right;
+    border-width: 5%;
+    border-radius: 25px;
+
+    font-weight: 300;
+    font-size: 100%;
+    background-color: #2F3095;
+    border: none;
+    color: white;
+    transition: 0.5s;
+    cursor: text;
+	float:right;
+    box-shadow: 10 20 5 #000;
+
+  }
+
+.navbar .search-input:hover{
+    background-color: #F8931D;
+    border: none;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 25px;
+    position: relative;
+    margin-right: 15px;
+    font-weight: 700;
+    
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    display: block;
+}
+
+.navbar ul li::after{
+    content: ' ';
+    height: 3px;
+    width: 0;
+    background: #598CEE;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+#proficon{
+    cursor: pointer;
+	float:right;
+}
+
+
+.format{
+    font-weight: 600;
+    color: #F8931D;
+
+}
+
+.content{
+
+    
+}
+
+#headhero{
+    margin: 10%;
+    text-align: left;
+    margin-top: 10%;
+    font-size: 36px;
+	width:40%
+}
+
+#contactus{
+    margin-left: 10%;
+    margin-top: -9%;
+    margin-bottom: 0;
+    border-radius: 25px;
+    width: 250px;
+    height: 50px;
+    padding: 15px;
+    padding-top: 15px;
+    padding-left: 22px;
+    text-align: left;
+    background-color: #2F3095;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    z-index: 2;
+    cursor:pointer;
+    position: relative;
+    transition: 0.5s ease;
+    box-shadow: 10 10 5 #000;
+}
+
+#contactus:hover{
+    background-color: #F8931D;
+    transform: scale(1.1);
+}
+
+
+
+#subheadhero{
+    text-align: left;
+    margin: 10%;
+    margin-top: -10%;
+    font-size: 18px;
+    margin-bottom: 5%;
+}
+
+.ImageDog{
+    margin-left: 49%;
+    margin-right: -10%;
+    margin-top: 10%;
+    width: 50%;
+    height: 80%;
+    z-index: -7;
+}
+
+.rectangle{
+    position: absolute;
+    width: 100%;
+    height: 125%;
+    margin-top: -20%;
+    margin-bottom: 20%;
+    background-color: #598CEE;
+    z-index: -10;
+}
+
+.MessageBox{
+    position:fixed;
+	bottom:3%;
+	right:3%;
+	z-index:100
+}
+
+.MessageBox .message{
+    align-items: center;
+    width: 200px;
+    height: 70px;
+    padding: 15px;
+    padding-top: 15px;
+    text-align: center;
+    background-color: #2f3195;
+    color: #ddd;
+    font-size: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    border: 1px solid #00000038;
+    transition: 0.5s ease; 
+    font-weight: 700;
+}
+
+.message:hover{
+    background-color: #F8931D;
+    transform: scale(1.1);
+    border-radius: 15px;
+}
+
+
+
+
+/*Main body page*/
+.Main{
+    margin-top: 30%;
+}
+
+
+
+
+/*Featured*/ 
+.Featured{
+    margin-bottom: 30%;
+}
+
+.FeaturedTag{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-indent: 10%;
+    letter-spacing: 3px;
+    padding: 10px;
+    color: #F8931D;
+}
+
+.Featuredbox{
+    position: absolute;
+    width: 100%;
+    height: 40%;
+    align-items: center;
+    background-color: #2f3195f8;
+    z-index: 20;
+    margin-right: 0%;
+    margin-top: 0%;
+    margin-left: 0%;
+}
+
+
+.Essentials1{
+    padding-top: 10%;
+    padding-bottom: 5%;
+    text-align: center;
+    color: #F8931D;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+/*
+.slider{
+    margin-left: -20%;
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    border-radius: 0.5rem;
+}
+
+.slider img{
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+    display: flex;
+}
+
+.PetFoodCarousel{
+    position: relative;
+    max-width: 28rem;
+    margin: 0 auto;
+
+}
+*/
+
+
+.wrapper{
+    max-height: 30%;
+    display: flex;
+    overflow-x: auto;
+    cursor: pointer;
+    padding-left: 5%;
+}
+
+.wrapper::-webkit-scrollbar{
+    width: 0;
+}
+
+.wrapper .CarouselPic{
+    min-width: 30%;
+    height: 20%;
+    line-height: 80px;
+    padding: 20px;
+}
+
+.wrapper .CarouselPic2{
+    min-width: 20%;
+    height: 20%;
+    line-height: 80px;
+    padding: 20px;
+}
+
+.seemore{
+    margin-top: 50px;
+    margin-left: 42%;
+    align-items: center;
+    width: 250px;
+    height: 50px;
+    padding: 15px;
+    padding-top: 15px;
+    padding-left: 22px;
+    text-align: center;
+    background-color: #2F3095;
+    color: #ddd;
+    font-size: 20px;
+    border-radius: 25px;
+    border: 0;
+    transition: 0.5s ease;
+    font-weight: 700;
+}
+
+.seemore:hover{
+    background-color: #F8931D;
+    color: #2F3095;
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+.Featuredbox2{
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    align-items: center;
+    background-color: #598CEE;
+    z-index: -20;
+    margin-right: 20%;
+    margin-top: 70%;
+    
+    
+}

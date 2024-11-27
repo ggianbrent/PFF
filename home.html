@@ -1,141 +1,225 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="Home.css">
-        <title>Pablo's Fur Friends</title>
-    </head>
-    <body>
-        <header class="navbar">
-            <img src="./RESOURCES/pablo.png" width="75" height="75" alt="logoproj" class="logo">
-            <div class="companyinfo">
-				<span class="name"> PABLO'S FUR FRIENDS </span> <br>
-				<span class="info"> GROOMING, BOARDING & PET SUPPLIES </span>
-			</div>
-			<div class="interactive">
-				<ul>
-					<li><a href="./home.html">Home</a></li>
-					<li><a href="./services.html">Services</a></li>
-					<li><a href="./products.html">Products</a></li>
-                    <li><a href="./about.html">About Us</a></li>
-				</ul>
-                <div class="search-container">
-                    <input type="text" placeholder="Search" class="search-input" />
-                </div>
-			</div>
-			<div class="profile">
-                <a href="profile.html"><img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/462560719_3856025144618486_6347667910021724810_n.jpg?stp=cp0_dst-jpg&_nc_cat=102&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeEc7iKoPdg9WQkKtTsgr0QYNh1QWxc64rk2HVBbFzriucKHJ6tNMaa_Qn3o254uZeEAtVr1Z49yANTEo4BkcH7k&_nc_ohc=OFzEqKYnqEAQ7kNvgEkH6dU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1QFnQ3pssLkwlSW2qaD7eRUPUj2Gke7BvayQyz6naj1Mjg&oe=676554EF" width="50" height="50" alt="Profile Picture"></a>
-                <div class="dropdown">
-                    <div class="dropdown-menu">
-                        <h3>Juan Dela Cruz</h3>
-                        <hr>
-                        <ul>
-                            <a href="profile.html"><li>Profile</li></a>
-                            <li>Orders</li>
-                            <li>Appointments</li>
-                            <li>Log-In/Log-Out</li>
-                            <li>Sign-Up</li>
-                            <li>Contact Us</li>
-                            <a href="./contact.html"><li>Contact Us</li></a>
-                        </ul>
-                    </div>
-                </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <title>Pablo's Fur Friends</title>
+    <link rel="icon" type="image" href="https://scontent.xx.fbcdn.net/v/t1.15752-9/467475807_931906608366424_3402141736063843329_n.jpg?stp=dst-jpg_s480x480&_nc_cat=110&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeHKvdtAyBLclC14wchxiYwD0WiIYShjM0jRaIhhKGMzSOuUfiXLmLUIIbqSJUKcQuuD0fvxX-TeohQhaRFUNtsV&_nc_ohc=3dqCZBKkPSgQ7kNvgGjVEAU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1QHUGYhytdCyH-dINDfJS5VKWfeRntdX-I2hfpiqaig3ew&oe=6765513C">
+</head>
+<body>
+    
+    <header class="navbar">
+        <img src="./RESOURCES/pablo.png" width="75" height="75" alt="logoproj" class="logo">
+        <div class="companyinfo">
+            <span class="name"> PABLO'S FUR FRIENDS </span> <br>
+            <span class="info"> GROOMING, BOARDING & PET SUPPLIES </span>
+        </div>
+        <div class="interactive">
+            <ul>
+                <li><a href="./home.html">Home</a></li>
+                <li><a href="./services.html">Services</a></li>
+                <li><a href="./products.html">Products</a></li>
+                <li><a href="./about.html">About Us</a></li>
+            </ul>
+            <div class="search-container">
+                <input type="text" placeholder="Search" class="search-input" />
             </div>
-        </header>
-        <div class="content">
-            <div class="rectangle"> <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/462642661_1708209890029391_9023727242349986845_n.png?stp=dst-png_s480x480&_nc_cat=102&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeElmT-A4BnU7oxrhNHgtsrObCcstaboS4xsJyy1puhLjPWbAkaWhp1i7tAuQGXAdDRG_omLkhGib9TLEntkldrD&_nc_ohc=6kNu6DOlajYQ7kNvgG0R6ml&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1QHXQ0AzYN8wYeVCYuNJ7-Afc-FIOVUlr7GHXsavtwLbNg&oe=67653F97" class="ImageDog"> </div>
-            <h1 id="headhero">Groomed with <span class="format"> Care</span>, <br> Supplies to <span class="format"> Spare</span>, <br> and Cozy Stays <span class="format"> <br> Everywhere! </span></h1>
-            <p id="subheadhero">
-                Quality products and services! <br>
-                Where your pets health and happiness is our <br>
-                priority.
-                
-            </p>
-            
-            <button id="contactus" onclick="window.location.href='./Contact.html';"> Contact Us </button>
-            
-            <div class="MessageBox">
-                <button class="message">Message Us!</button>
-            </div>  
-            
-            
-            <div class="Main">
-                <div class="Featured">
-                    <h3 class="FeaturedTag"> Featured </h3>
-                        <div class="Featuredbox"> 
-
-                        </div>
-                </div>
-
-                <div class="EssentialsPage">
-                    <h3 class="FeaturedTag"> Essentials </h3>
-
-                    <div class="PetFoods">
-                        <h3 class="Essentials1"> Pet Foods </h3>
-
-                    
-                        <div class="PetFoodCarousel">
-                            <div class="wrapper">
-                                <img class="CarouselPic" src="https://scontent.xx.fbcdn.net/v/t1.15752-9/462561649_1262905068365311_577312255517128189_n.png?stp=dst-png_s600x600&_nc_cat=108&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeGv8HlJqz8qbuWsdXbPZKeZcuMQmngM169y4xCaeAzXryE7arbEnJHEnCa8ACw7zoJhU9qS7jDrIH1XbwaIHR8E&_nc_ohc=e2XDfcBGbXgQ7kNvgECTAmi&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1QEuZdKOWWyyeG5YyeYWGNoffm0DdbdF4a5VB_xGx0CS5g&oe=67653161scontent.xx.fbcdn.net/v/t1.15752-9/462561649_1262905068365311_577312255517128189_n.png?stp=dst-png_s600x600&_nc_cat=108&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeGv8HlJqz8qbuWsdXbPZKeZcuMQmngM169y4xCaeAzXryE7arbEnJHEnCa8ACw7zoJhU9qS7jDrIH1XbwaIHR8E&_nc_ohc=e2XDfcBGbXgQ7kNvgECTAmi&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1QEuZdKOWWyyeG5YyeYWGNoffm0DdbdF4a5VB_xGx0CS5g&oe=67653161" alt="food">
-                                <img class="CarouselPic" src="https://scontent.xx.fbcdn.net/v/t1.15752-9/462561649_1262905068365311_577312255517128189_n.png?stp=dst-png_s600x600&_nc_cat=108&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeGv8HlJqz8qbuWsdXbPZKeZcuMQmngM169y4xCaeAzXryE7arbEnJHEnCa8ACw7zoJhU9qS7jDrIH1XbwaIHR8E&_nc_ohc=e2XDfcBGbXgQ7kNvgECTAmi&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1QEuZdKOWWyyeG5YyeYWGNoffm0DdbdF4a5VB_xGx0CS5g&oe=67653161scontent.xx.fbcdn.net/v/t1.15752-9/462561649_1262905068365311_577312255517128189_n.png?stp=dst-png_s600x600&_nc_cat=108&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeGv8HlJqz8qbuWsdXbPZKeZcuMQmngM169y4xCaeAzXryE7arbEnJHEnCa8ACw7zoJhU9qS7jDrIH1XbwaIHR8E&_nc_ohc=e2XDfcBGbXgQ7kNvgECTAmi&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1QEuZdKOWWyyeG5YyeYWGNoffm0DdbdF4a5VB_xGx0CS5g&oe=67653161" alt="food">
-                                <img class="CarouselPic" src="https://scontent.xx.fbcdn.net/v/t1.15752-9/462561649_1262905068365311_577312255517128189_n.png?stp=dst-png_s600x600&_nc_cat=108&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeGv8HlJqz8qbuWsdXbPZKeZcuMQmngM169y4xCaeAzXryE7arbEnJHEnCa8ACw7zoJhU9qS7jDrIH1XbwaIHR8E&_nc_ohc=e2XDfcBGbXgQ7kNvgECTAmi&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1QEuZdKOWWyyeG5YyeYWGNoffm0DdbdF4a5VB_xGx0CS5g&oe=67653161scontent.xx.fbcdn.net/v/t1.15752-9/462561649_1262905068365311_577312255517128189_n.png?stp=dst-png_s600x600&_nc_cat=108&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeGv8HlJqz8qbuWsdXbPZKeZcuMQmngM169y4xCaeAzXryE7arbEnJHEnCa8ACw7zoJhU9qS7jDrIH1XbwaIHR8E&_nc_ohc=e2XDfcBGbXgQ7kNvgECTAmi&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1QEuZdKOWWyyeG5YyeYWGNoffm0DdbdF4a5VB_xGx0CS5g&oe=67653161" alt="food">
-                                <img class="CarouselPic" src="https://scontent.xx.fbcdn.net/v/t1.15752-9/462561649_1262905068365311_577312255517128189_n.png?stp=dst-png_s600x600&_nc_cat=108&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeGv8HlJqz8qbuWsdXbPZKeZcuMQmngM169y4xCaeAzXryE7arbEnJHEnCa8ACw7zoJhU9qS7jDrIH1XbwaIHR8E&_nc_ohc=e2XDfcBGbXgQ7kNvgECTAmi&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1QEuZdKOWWyyeG5YyeYWGNoffm0DdbdF4a5VB_xGx0CS5g&oe=67653161scontent.xx.fbcdn.net/v/t1.15752-9/462561649_1262905068365311_577312255517128189_n.png?stp=dst-png_s600x600&_nc_cat=108&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeGv8HlJqz8qbuWsdXbPZKeZcuMQmngM169y4xCaeAzXryE7arbEnJHEnCa8ACw7zoJhU9qS7jDrIH1XbwaIHR8E&_nc_ohc=e2XDfcBGbXgQ7kNvgECTAmi&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1QEuZdKOWWyyeG5YyeYWGNoffm0DdbdF4a5VB_xGx0CS5g&oe=67653161" alt="food">
-                                <img class="CarouselPic" src="https://scontent.xx.fbcdn.net/v/t1.15752-9/462561649_1262905068365311_577312255517128189_n.png?stp=dst-png_s600x600&_nc_cat=108&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeGv8HlJqz8qbuWsdXbPZKeZcuMQmngM169y4xCaeAzXryE7arbEnJHEnCa8ACw7zoJhU9qS7jDrIH1XbwaIHR8E&_nc_ohc=e2XDfcBGbXgQ7kNvgECTAmi&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1QEuZdKOWWyyeG5YyeYWGNoffm0DdbdF4a5VB_xGx0CS5g&oe=67653161scontent.xx.fbcdn.net/v/t1.15752-9/462561649_1262905068365311_577312255517128189_n.png?stp=dst-png_s600x600&_nc_cat=108&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeGv8HlJqz8qbuWsdXbPZKeZcuMQmngM169y4xCaeAzXryE7arbEnJHEnCa8ACw7zoJhU9qS7jDrIH1XbwaIHR8E&_nc_ohc=e2XDfcBGbXgQ7kNvgECTAmi&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1QEuZdKOWWyyeG5YyeYWGNoffm0DdbdF4a5VB_xGx0CS5g&oe=67653161" alt="food">
-                                <img class="CarouselPic" src="https://scontent.xx.fbcdn.net/v/t1.15752-9/462561649_1262905068365311_577312255517128189_n.png?stp=dst-png_s600x600&_nc_cat=108&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeGv8HlJqz8qbuWsdXbPZKeZcuMQmngM169y4xCaeAzXryE7arbEnJHEnCa8ACw7zoJhU9qS7jDrIH1XbwaIHR8E&_nc_ohc=e2XDfcBGbXgQ7kNvgECTAmi&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1QEuZdKOWWyyeG5YyeYWGNoffm0DdbdF4a5VB_xGx0CS5g&oe=67653161scontent.xx.fbcdn.net/v/t1.15752-9/462561649_1262905068365311_577312255517128189_n.png?stp=dst-png_s600x600&_nc_cat=108&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeGv8HlJqz8qbuWsdXbPZKeZcuMQmngM169y4xCaeAzXryE7arbEnJHEnCa8ACw7zoJhU9qS7jDrIH1XbwaIHR8E&_nc_ohc=e2XDfcBGbXgQ7kNvgECTAmi&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1QEuZdKOWWyyeG5YyeYWGNoffm0DdbdF4a5VB_xGx0CS5g&oe=67653161" alt="food">
-                                <img class="CarouselPic" src="https://scontent.xx.fbcdn.net/v/t1.15752-9/462561649_1262905068365311_577312255517128189_n.png?stp=dst-png_s600x600&_nc_cat=108&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeGv8HlJqz8qbuWsdXbPZKeZcuMQmngM169y4xCaeAzXryE7arbEnJHEnCa8ACw7zoJhU9qS7jDrIH1XbwaIHR8E&_nc_ohc=e2XDfcBGbXgQ7kNvgECTAmi&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1QEuZdKOWWyyeG5YyeYWGNoffm0DdbdF4a5VB_xGx0CS5g&oe=67653161scontent.xx.fbcdn.net/v/t1.15752-9/462561649_1262905068365311_577312255517128189_n.png?stp=dst-png_s600x600&_nc_cat=108&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeGv8HlJqz8qbuWsdXbPZKeZcuMQmngM169y4xCaeAzXryE7arbEnJHEnCa8ACw7zoJhU9qS7jDrIH1XbwaIHR8E&_nc_ohc=e2XDfcBGbXgQ7kNvgECTAmi&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1QEuZdKOWWyyeG5YyeYWGNoffm0DdbdF4a5VB_xGx0CS5g&oe=67653161" alt="food">
-
-                                <div class="slider-nav">
-                                    <a href="CarouselPic"></a>
-                                </div>
-                            </div>
-
-                            <button class="seemore"> See More </button>
-                        </div>
-                    
-                    <div class="Accesories">
-                        <h3 class="Essentials1"> Accessories </h3>
-
-                        <div class="AccesoriesCarousel">
-                            <div class="wrapper">
-                                <img class="CarouselPic2" src="https://scontent.xx.fbcdn.net/v/t1.15752-9/466821187_473254545251150_2287734978586395012_n.png?_nc_cat=106&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeFRArwGrbfxPTAgPJ2I0dRf1z6uObF4hgfXPq45sXiGB6M2XMdEfyo9iFSJcblCK8YCqm3_pDk7zxQ2_NZLkh5Y&_nc_ohc=G_WilP-T_uMQ7kNvgFsLmQN&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1QE9s1vQvaKesh-2MQW9I5j_q2vuE72R_ZYhMmei1oK0yw&oe=67652B0F">
-                                <img class="CarouselPic2" src="https://scontent.xx.fbcdn.net/v/t1.15752-9/466821187_473254545251150_2287734978586395012_n.png?_nc_cat=106&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeFRArwGrbfxPTAgPJ2I0dRf1z6uObF4hgfXPq45sXiGB6M2XMdEfyo9iFSJcblCK8YCqm3_pDk7zxQ2_NZLkh5Y&_nc_ohc=G_WilP-T_uMQ7kNvgFsLmQN&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1QE9s1vQvaKesh-2MQW9I5j_q2vuE72R_ZYhMmei1oK0yw&oe=67652B0F">
-                                <img class="CarouselPic2" src="https://scontent.xx.fbcdn.net/v/t1.15752-9/466821187_473254545251150_2287734978586395012_n.png?_nc_cat=106&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeFRArwGrbfxPTAgPJ2I0dRf1z6uObF4hgfXPq45sXiGB6M2XMdEfyo9iFSJcblCK8YCqm3_pDk7zxQ2_NZLkh5Y&_nc_ohc=G_WilP-T_uMQ7kNvgFsLmQN&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1QE9s1vQvaKesh-2MQW9I5j_q2vuE72R_ZYhMmei1oK0yw&oe=67652B0F">
-                                <img class="CarouselPic2" src="https://scontent.xx.fbcdn.net/v/t1.15752-9/466821187_473254545251150_2287734978586395012_n.png?_nc_cat=106&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeFRArwGrbfxPTAgPJ2I0dRf1z6uObF4hgfXPq45sXiGB6M2XMdEfyo9iFSJcblCK8YCqm3_pDk7zxQ2_NZLkh5Y&_nc_ohc=G_WilP-T_uMQ7kNvgFsLmQN&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1QE9s1vQvaKesh-2MQW9I5j_q2vuE72R_ZYhMmei1oK0yw&oe=67652B0F">
-                                <img class="CarouselPic2" src="https://scontent.xx.fbcdn.net/v/t1.15752-9/466821187_473254545251150_2287734978586395012_n.png?_nc_cat=106&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeFRArwGrbfxPTAgPJ2I0dRf1z6uObF4hgfXPq45sXiGB6M2XMdEfyo9iFSJcblCK8YCqm3_pDk7zxQ2_NZLkh5Y&_nc_ohc=G_WilP-T_uMQ7kNvgFsLmQN&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1QE9s1vQvaKesh-2MQW9I5j_q2vuE72R_ZYhMmei1oK0yw&oe=67652B0F">
-                                <img class="CarouselPic2" src="https://scontent.xx.fbcdn.net/v/t1.15752-9/466821187_473254545251150_2287734978586395012_n.png?_nc_cat=106&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeFRArwGrbfxPTAgPJ2I0dRf1z6uObF4hgfXPq45sXiGB6M2XMdEfyo9iFSJcblCK8YCqm3_pDk7zxQ2_NZLkh5Y&_nc_ohc=G_WilP-T_uMQ7kNvgFsLmQN&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1QE9s1vQvaKesh-2MQW9I5j_q2vuE72R_ZYhMmei1oK0yw&oe=67652B0F">
-                            </div>
-                        </div>
-                        <button class="seemore"> See More </button>
-
-                    </div>
-
-
-
-                    </div>
-
+        </div>
+        <div class="profile">
+            <a href="profile.html"><img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/462560719_3856025144618486_6347667910021724810_n.jpg?stp=cp0_dst-jpg&_nc_cat=102&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeEc7iKoPdg9WQkKtTsgr0QYNh1QWxc64rk2HVBbFzriucKHJ6tNMaa_Qn3o254uZeEAtVr1Z49yANTEo4BkcH7k&_nc_ohc=OFzEqKYnqEAQ7kNvgEkH6dU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1QFnQ3pssLkwlSW2qaD7eRUPUj2Gke7BvayQyz6naj1Mjg&oe=676554EF" width="50" height="50" alt="Profile Picture"></a>
+            <div class="dropdown">
+                <div class="dropdown-menu">
+                    <h3>Juan Dela Cruz</h3>
+                    <hr>
+                    <ul>
+                        <a href="profile.html"><li>Profile</li></a>
+                        <li>Orders</li>
+                        <li>Appointments</li>
+                        <li>Log-In/Log-Out</li>
+                        <li>Sign-Up</li>
+                        <a href="./contact.html"><li>Contact Us</li></a>
+                    </ul>
                 </div>
             </div>
         </div>
-        
-        <footer>
-            <div class="Featuredbox2"> 
+    </header>
+    <div class="Content">
+        <div class="hero">
+                <div class="background-hero"> </div>
             
-                <div class="footerinfo">
-                    <div class="logoandname">
-                        <img src="./RESOURCES/pablo.png" width="75" height="75" alt="logoproj" class="logofooter">
-                        <span class="namefooter"> PABLO'S FUR FRIENDS </span> <br>
-
-                    </div> <br>
-                    
-                    <div class="aboutusfooter">
-                                    Pablo’s Fur Friends is a business that primarily provides Pet Supplies and Grooming to improve the health and wellbeing of pets and by extension, their owners too. We offer services such as pet food, medicinal supplies, grooming, boarding, and more! 
-
-                    </div>
+                <div class="DogPic">
+                    <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/462642661_1708209890029391_9023727242349986845_n.png?stp=dst-png_s480x480&_nc_cat=102&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeElmT-A4BnU7oxrhNHgtsrObCcstaboS4xsJyy1puhLjPWbAkaWhp1i7tAuQGXAdDRG_omLkhGib9TLEntkldrD&_nc_ohc=6kNu6DOlajYQ7kNvgG0R6ml&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1QHXQ0AzYN8wYeVCYuNJ7-Afc-FIOVUlr7GHXsavtwLbNg&oe=67653F97" class="ImageDog">
                 </div>
+                <div class="Catchphrase">
+                    <h1 id="headhero">Groomed with <span class="format"> Care</span>, 
+                        <br> Supplies to <span class="format"> Spare</span>, 
+                        <br> and Cozy Stays <span class="format"> <br> Everywhere! </span></h1>
+
+                        <p id="subheadhero">
+                            Quality products and services! <br>
+                            Where your pets health and happiness is our <br>
+                            priority.
+                         </p>    
+                </div>
+
+                <div class="Button">
+                    <button id="contactus"> Contact Us </button>
+                </div>
+
+                <div class="MessageBox">
+                    <button class="messageus">Message Us!</button>
+                </div>  
             
+            
+        </div>
+        
+           
+        <div class="Featured">
+            <div class="contain">
+                 <h3 id="Tag"> Featured </h3>
+                <div class="Line"> </div>   
+            </div>
+            <div class="Featuredbox">
+                <img class="arrow" src="https://scontent.xx.fbcdn.net/v/t1.15752-9/462576260_889714399952035_8242270761113501750_n.png?stp=cp0_dst-png&_nc_cat=106&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeFpgaFIiQDhbQh8sn5DlqInGEgaBcGrLVMYSBoFwastU4QVoCSi3iSXy9N2Qhki03H_Soq9ZR_j3Jdq0wtHp20P&_nc_ohc=zSNfr5pNueYQ7kNvgF0-lcY&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1QGRSRxMyl8HVX6LVV_AUMWRUlXu92TMOKxsjAV2apdfng&oe=676D3A06">
             </div>
 
-        </footer>
-    </body>
+            <div class="FeaturedRight">     
+                <p class="FeaturedText">
+                    "Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> 
+                    Soluta tempore quod autem quo animi non assumenda adipisci quas illo. <br>
+                    Dolor expedita distinctio dolore quis consequuntur nostrum odio <br> magnam inventore dignissimos".
+                 </p>
+                 <button id="click"> See More </button>
+            </div>
+
+                <div class="FeaturedPic">
+                </div>
+        </div>
+        
+
+        <div class="essentials">
+            <h3 class="EssentialTag"> Essentials </h3>
+            <div class="food">
+                <div class="contain">
+                    <div class="line"> </div>
+                    <h3 class="FoodTag"> Pet Foods </h3>
+                    <div class="line"> </div>
+                </div>        
+                <div class="wrapper">
+                        <button class="navbtn"> &#xf104 </button>
+                        <div class="wrap">
+                        <div class="carouselpics">
+                            <div class="containerPic">
+                                <img class="CarouselPic" src="https://scontent.xx.fbcdn.net/v/t1.15752-9/462651998_545178038328793_7020059623300481858_n.png?_nc_cat=110&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeEBYWciHa-nMXcZ7oBL4fukuUgpwBFAyaG5SCnAEUDJobovlV9LFW9Wb0LtcQA1Tvf6I1RI9AlOkpzRaDZK9EVj&_nc_ohc=VNNL3EV4EF4Q7kNvgF73GQR&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1QEgdnG_vDpL5U6W8ETvJszCYniHIkluNC9_ROIow5ueew&oe=676EA852" alt="food">
+                                <p class="fontstyles">
+                                    3in1 pedigree dentastix
+                                    <br>tastyminis rodeo <br>
+                                    dog snaacks 
+                                </p>
+                            </div>
+                            <div class="containerPic">   
+                                <img class="CarouselPic" src="https://scontent.xx.fbcdn.net/v/t1.15752-9/462584469_27857934770487862_162149870686289146_n.png?_nc_cat=111&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeFx-I2ciOvP1fXnCSdBnBl-nRzo0heWd7OdHOjSF5Z3s43ImDZKiTkVk5vKs_wQ65eTGW3lhw03x0BPYontYEg8&_nc_ohc=97IoWrzNxmkQ7kNvgG8-55t&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1QHtujT1gZXSi2Ih_OLNKe7r7XWKmwNkBiQ1_uXP8uM6vQ&oe=676EB96A" alt="food">
+                                <p class="fontstyles">3in1 pedigree dentastix
+                                    <br>tastyminis<br>
+                                    rodeo dog snaacks 
+                                </p>                            </div>
+                            <div class="containerPic">    
+                                <img class="CarouselPic" src="https://scontent.xx.fbcdn.net/v/t1.15752-9/462570597_581446964574522_8361973834339716885_n.png?_nc_cat=111&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeGKlnzmvtEvj4f74tqQzTAWac4OJbxhFD5pzg4lvGEUPlkzoVTqNyQ3rI9P7QRfJMIUg2nV-Rbw3IufjUaOFYZ4&_nc_ohc=M_Qqn8K0OSAQ7kNvgHLAHb6&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1QFzGmwYZXO6awdWYXnrwLT0BvgQ9OHYAXQHZxOQRVMcSA&oe=676EA304" alt="food">
+                                <p class="fontstyles">3in1 pedigree dentastix
+                                    <br>tastyminis<br>
+                                    rodeo dog snaacks 
+                                </p>                            
+                            </div>
+                            <div class="containerPic">
+                                <img class="CarouselPic" src="https://scontent.xx.fbcdn.net/v/t1.15752-9/462583256_485670184629375_1074282439616610203_n.png?_nc_cat=102&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeH4ckBYkkjgbOnO7o7IzYag_0OOvQ8aJMf_Q469DxokxzAY0kLFNp8TDt1CEJE7TA6rq1yNzxDaNZXGq4mDqEfx&_nc_ohc=oHIaj0FGkgkQ7kNvgHeFqJu&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1QHhQ211yloi89Yzd2_4LyalpbHbWAlZt0vK9-pgGtmgwQ&oe=676EB4DB" alt="food">
+                                <p class="fontstyles">3in1 pedigree dentastix
+                                    <br>tastyminis<br>
+                                    rodeo dog snaacks 
+                                </p>                            
+                            </div>
+                            
+                            
+                        </div>    
+                                
+                                <div class="slider-nav">
+                                    <a href="CarouselPic"></a>
+                                </div>
+                        </div>
+                        <button class="navbtn2"> &#xf105 </button>
+                </div>     
+                <button class="seemore-bodypart"> See More </button>
+                
+            </div>
+
+
+
+            <div class="Accessories">
+                <div class="contain">
+                    <div class="line"> </div>
+                    <h3 class="FoodTag"> Accesories </h3>
+                    <div class="line"> </div>
+                </div>        
+                <div class="wrapper">
+                    <button class="navbtn"> &#xf104 </button>
+                    <div class="wrap">
+                    <div class="carouselpics">
+                        <div class="containerPic">
+                            <img class="CarouselPic" src="https://scontent.xx.fbcdn.net/v/t1.15752-9/466821187_473254545251150_2287734978586395012_n.png?_nc_cat=106&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeFRArwGrbfxPTAgPJ2I0dRf1z6uObF4hgfXPq45sXiGB6M2XMdEfyo9iFSJcblCK8YCqm3_pDk7zxQ2_NZLkh5Y&_nc_ohc=6_RormmylUUQ7kNvgEGB-2E&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1QH1w933KSS2ZWEZO-K2Yabg7DM_KsESl1CGw_c6Dp-LmA&oe=676E9DCF" alt="Accesories">
+                            <p class="fontstyles">
+                                3in1 pedigree dentastix
+                                <br>tastyminis rodeo <br>
+                                dog snaacks 
+                            </p>
+                        </div>
+                        <div class="containerPic">   
+                            <img class="CarouselPic" src="https://scontent.xx.fbcdn.net/v/t1.15752-9/467470380_1305693780851235_397810765415391840_n.png?_nc_cat=110&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeEXPVT5uTsHTlIi4lnfBgxQB2jYY9-i8x8HaNhj36LzH75SE2uzswuwl1yhq3-1-OCFEdtDc10Y-UhwCcvqWUti&_nc_ohc=OJS-oDrCYJAQ7kNvgFs1rCb&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1QGM-go1UKxk4FPgR2v_cxE7PwYDPi5S73luhefpK-qcjw&oe=676EA88E" alt="food">
+                            <p class="fontstyles">3in1 pedigree dentastix
+                                <br>tastyminis<br>
+                                rodeo dog snaacks 
+                            </p>                            </div>
+                        <div class="containerPic">    
+                            <img class="CarouselPic" src="https://scontent.fmnl5-2.fna.fbcdn.net/v/t1.15752-9/462568216_1522952045085301_6119504245708541402_n.png?_nc_cat=105&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeHx-pUIKS3YBSd7oqiKLv6OwPDIAWfTZBTA8MgBZ9NkFHOGeu9kKhoF9monyC9DdHAse7eSRGi9JmBuP8vKMV7j&_nc_ohc=K_-c2r4VDXIQ7kNvgEqWyP2&_nc_zt=23&_nc_ht=scontent.fmnl5-2.fna&oh=03_Q7cD1QFg-y5FAm6NhgAHgcYHctnhln8VuJ0RiT0zAKUT0lEXFw&oe=676EB07B" alt="food">
+                            <p class="fontstyles">3in1 pedigree dentastix
+                                <br>tastyminis<br>
+                                rodeo dog snaacks 
+                            </p>                            
+                        </div>
+                        <div class="containerPic">
+                            <img class="CarouselPic" src="https://scontent.xx.fbcdn.net/v/t1.15752-9/462570633_1084718609866292_8263932060041774065_n.png?_nc_cat=106&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeEkHFvxevr47b-tcDx_EMsTdNAH7zf2A2t00AfvN_YDaxF3ltC0BPqPuMPqqLVFVJ4YIAdOPu_PEq6VKqBy2T9D&_nc_ohc=8k_U9xwLO1IQ7kNvgGizJR5&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1QHSV7yYWFQYY6hHcBDPHHQnUIHY84M36DPBdqyweEnl4A&oe=676EAB1A" alt="food">
+                            <p class="fontstyles">3in1 pedigree dentastix
+                                <br>tastyminis<br>
+                                rodeo dog snaacks 
+                            </p>                            
+                        </div>
+                        
+                        
+                    </div>    
+                            
+                            <div class="slider-nav">
+                                <a href="CarouselPic"></a>
+                            </div>
+                    </div>
+                    <button class="navbtn2"> &#xf105 </button>
+            </div>   
+                <button class="seemore-bodypart"> See More </button>
+                
+            </div>
+
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="Featuredbox2"> 
+            <div class="footerinfo">
+                <div class="logoandname">
+                    <img src="./RESOURCES/pablo.png" width="75" height="75" alt="logoproj" class="logofooter">
+                    <span class="namefooter"> PABLO'S FUR FRIENDS </span> <br>
+                </div> <br>
+                <div class="aboutusfooter">
+                                Pablo’s Fur Friends is a business that primarily provides Pet Supplies and Grooming to improve the health and wellbeing of pets and by extension, their owners too. We offer services such as pet food, medicinal supplies, grooming, boarding, and more! 
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
 </html>

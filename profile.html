@@ -15,14 +15,11 @@
 			</div>
 			<div class="interactive">
 				<ul>
-					<li><a href="./home.html">Home</a></li>
+					<li><a href="./index.html">Home</a></li>
 					<li><a href="./services.html">Services</a></li>
 					<li><a href="./products.html">Products</a></li>
                     <li><a href="./about.html">About Us</a></li>
 				</ul>
-                <div class="search-container">
-                    <input type="text" placeholder="Search" class="search-input" />
-                </div>
 			</div>
 			<div class="profile">
                 <a href="profile.html"><img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/462560719_3856025144618486_6347667910021724810_n.jpg?stp=cp0_dst-jpg&_nc_cat=102&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeEc7iKoPdg9WQkKtTsgr0QYNh1QWxc64rk2HVBbFzriucKHJ6tNMaa_Qn3o254uZeEAtVr1Z49yANTEo4BkcH7k&_nc_ohc=OFzEqKYnqEAQ7kNvgEkH6dU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1QFnQ3pssLkwlSW2qaD7eRUPUj2Gke7BvayQyz6naj1Mjg&oe=676554EF" width="50" height="50" alt="Profile Picture"></a>
@@ -34,76 +31,94 @@
                             <a href="profile.html"><li>Profile</li></a>
                             <li>Orders</li>
                             <li>Appointments</li>
-                            <li>Log-In/Log-Out</li>
-                            <li>Sign-Up</li>
-                            <a href="./contact.html"><li>Contact Us</li></a>
+                            <li>Log-Out</li>
                         </ul>
                     </div>
                 </div>
             </div>
+            <div id="fullscreen-menu" class="fullscreen-menu hidden">
+                <div class="menu-content">
+                  <button id="close-menu" class="close-btn">&times;</button>
+                  <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#profile">Services</a></li>
+                    <li><a href="#profile">Products</a></li>
+                    <li><a href="#profile">About Us</a></li>
+                    <li><a href="#profile">Profile</a></li>
+                  </ul>
+                </div>
+            </div>
+            <div class="phoneMenu">
+                <img src="./RESOURCES/hamburger-menu.png" alt="Menu" id="menu">
+            </div>
         </header>
-        <section class="profileHeader">
-            <div class="profileBackground">
-                <div class="profile-details">
-                    <div class="profile-picture"></div>
-                    <div class="profile-info-text">
-                        <h1>Juan Dela Cruz</h1>
-                        <p class="email">juandelacruz@gmail.com</p>
+        <section class="profile-main">
+            <div class="profile-main-container">
+                <div class="profile-container">
+                    <div class="profile-header">
+                        <div class="profile-cover">
+                            <div class="profile-pic"></div>
+                        </div>
+                        <div class="profile-text">
+                            <h2>Juan Dela Cruz</h2>
+                            <p>juandelacruz@gmail.com</p>
+                        </div>
                     </div>
+                    <div class="profile-info-container">
+                        <h3>Details</h3>
+                        <p id="details-first-line"><b>Address:</b> 1234 Housing Apartments, Barangay Sta. Cruz, Purok 001, Lian City, Philippines</p><br>
+                        <p><strong>Contact No.:</strong> +63 912 345 6789</p><br>
+                        <p><strong>E-mail Address:</strong> juandelacruz@gmail.com</p><br>
+                        <button>See more</button>
+                    </div>
+                </div>
+                <div class="transactions-container">
+                    <div class="transactions">
+                        <h2 id="transactions-title">Orders and Appointments</h2>
+                        <table>
+                            <tr>
+                                <td>Grooming</td>
+                                <td>3:00 pm  |  12-05-2024</td>
+                            </tr>
+                            <tr>
+                                <td>1x Small Leash</td>
+                                <td>Php 150.00  |  12-09-2024</td>
+                            </tr>
+                            <tr>
+                                <td>2x Cat Litter</td>
+                                <td>Php 500.00  |  12-10-2024</td>
+                            </tr>
+                            <tr>
+                                <td>Anal Sac Draining</td>
+                                <td>10:00 am  |  12-12-2024</td>
+                            </tr>
+                            <tr>
+                                <td>Daycare (12 days)</td>
+                                <td>12:00 pm  |  12-20-2024</td>
+                            </tr>
+                        </table>
+                    <!--<span class="transactions-end-message">Nothing follows.</span>
+                    </div>-->
                 </div>
             </div>
         </section>
-
-        <main class="content">
-            <section class="profile-info">
-                <h2>Profile Info</h2>
-                <p id="profileInfoFirstLine"><strong>Address:</strong> 1234 Housing Apartments, Barangay Sta. Cruz, Purok 001, Lian City, Philippines</p>
-                <p><strong>Contact No.:</strong> +63 912 345 6789</p>
-                <p><strong>E-mail Address:</strong> juandelacruz@gmail.com</p>
-                <button>+</button>
-            </section>
-            <section class="orders">
-                <h2>Orders and Appointments</h2>
-                <table>
-                    <tr>
-                        <td>Full Grooming</td>
-                        <td>12/12/24</td>
-                    </tr>
-                    <tr>
-                        <td>Full Grooming</td>
-                        <td>12/12/24</td>
-                    </tr>
-                    <tr>
-                        <td>Full Grooming</td>
-                        <td>12/12/24</td>
-                    </tr>
-                    <tr>
-                        <td>Full Grooming</td>
-                        <td>12/12/24</td>
-                    </tr>
-                    <tr>
-                        <td>Full Grooming</td>
-                        <td>12/12/24</td>
-                    </tr>
-                    <tr>
-                        <td>Full Grooming</td>
-                        <td>12/12/24</td>
-                    </tr>
-                </table>
-            </section>
-        </main>
         <footer class="footer">
-            <div class="Featuredbox2"> 
-                <div class="footerinfo">
-                    <div class="logoandname">
-                        <img src="./RESOURCES/pablo.png" width="75" height="75" alt="logoproj" class="logofooter">
-                        <span class="namefooter"> PABLO'S FUR FRIENDS </span> <br>
-                    </div> <br>
-                    <div class="aboutusfooter">
-                                    Pablo’s Fur Friends is a business that primarily provides Pet Supplies and Grooming to improve the health and wellbeing of pets and by extension, their owners too. We offer services such as pet food, medicinal supplies, grooming, boarding, and more! 
-                    </div>
+            <div class="left">
+                <h1>Pablo's Fur Friends</h1>
+                <p>Your One Stop Pet Shop.</p>
+            </div>
+            <div class="divider"></div>
+            <div class="right">
+                <h3><strong>Contact</strong></h3>
+                <p>Address: 5073 Filmore St, Makati, 1235 Metro Manila</p>
+                <p>Phone: +63 967 300 3285</p>
+                <p>Email: <a href="mailto:pablosfurfriends@gmail.com">pablosfurfriends@gmail.com</a></p>
+                <div class="icons">
+                    <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+                    <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
                 </div>
             </div>
-        </footer>
+        </footer>        
     </body>
+    <script src="navbar.js"></script>
 </html>
